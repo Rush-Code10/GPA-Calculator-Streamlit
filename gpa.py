@@ -18,6 +18,12 @@ grading_scale = {
 if 'courses' not in st.session_state:
     st.session_state.courses = []
 
+if "answer" in st.session_state:
+  answer = st.session_state["answer"]
+else:
+  # Handle the case where the key doesn't exist
+  st.session_state["answer"] = None  # or some default value
+
 def add_course():
     course_name = st.session_state.course_name
     course_grade = st.session_state.course_grade
