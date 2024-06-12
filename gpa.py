@@ -48,11 +48,3 @@ if st.session_state.courses:
     total_credit_hours = sum(course[2] for course in st.session_state.courses)
     gpa = total_grade_points / total_credit_hours
     st.subheader(f"GPA: {gpa:.2f}")
-
-hide_streamlit_style = """
-            <style>
-            #MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
-            </style>
-            """
-st.markdown(hide_streamlit_style, unsafe_allow_html=True)
