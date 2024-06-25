@@ -12,3 +12,6 @@ It was built using Python and the Gui Module/Library for Python called Tkinter.
 This project was made in collaboration with 3 other colleagues.
 
 **NOTE : Our college has gradation point criteria system out of 4.**
+
+![image](https://github.com/Rush-Code10/GPA-Calculator-Streamlit/assets/71811932/85e6760e-476a-4a60-bf47-546a7e6c421c)
+
